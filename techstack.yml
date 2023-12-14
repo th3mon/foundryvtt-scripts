@@ -1,8 +1,8 @@
 repo_name: th3mon/foundryvtt-scripts
-report_id: 8968d8d50f0796b6bcc001d08bb3a0ba
+report_id: e064b1bf3acbe6228ea5670657d0b0b6
 repo_type: Public
-timestamp: '2023-11-09T14:11:54+00:00'
-requested_by: th3mon
+timestamp: '2023-12-14T09:26:51+00:00'
+requested_by: stack-file[bot]
 provider: github
 branch: main
 detected_tools_count: 3
@@ -34,6 +34,6 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/11563/actions.png
-  detection_source: ".github/workflows/main.yml"
+  detection_source: ".github/workflows/get-version.js"
   last_updated_by: th3mon
   last_updated_on: 2023-08-14 15:29:22.000000000 Z
