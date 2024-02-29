@@ -1,8 +1,9 @@
 repo_name: th3mon/foundryvtt-scripts
 report_id: 8968d8d50f0796b6bcc001d08bb3a0ba
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-09T14:11:54+00:00'
-requested_by: th3mon
+timestamp: '2024-02-29T18:01:31+00:00'
+requested_by: stack-file[bot]
 provider: github
 branch: main
 detected_tools_count: 3
@@ -16,6 +17,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/th3mon/foundryvtt-scripts
   detection_source: Repo Metadata
 - name: Git
   description: Fast, scalable, distributed revision control system
@@ -25,6 +27,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/th3mon/foundryvtt-scripts
   detection_source: Repo Metadata
 - name: GitHub Actions
   description: Automate your workflow from idea to production
@@ -34,6 +37,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/11563/actions.png
-  detection_source: ".github/workflows/main.yml"
+  detection_source_url: https://github.com/th3mon/foundryvtt-scripts/blob/main/.github/workflows/get-version.js
+  detection_source: ".github/workflows/get-version.js"
   last_updated_by: th3mon
   last_updated_on: 2023-08-14 15:29:22.000000000 Z
